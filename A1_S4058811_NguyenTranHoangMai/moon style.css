@@ -1,0 +1,12 @@
+.moon {
+    position: absolute;
+    width: 243px;
+    height: 243px;
+    border-radius: 243px;
+    background-color: #FBFF00;
+    top: 170px;
+    left: 205px;
+    z-index: 1;
+    filter: drop-shadow(0px 0px 30px #cbc4a7);
+    animation-name: moon;
+}

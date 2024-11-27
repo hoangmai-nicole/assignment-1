@@ -1,0 +1,55 @@
+body {
+    background-color: #4436DA;
+    overflow:hidden;
+    margin: 0;
+}
+
+header {
+    font-family: "Skranji", system-ui;
+    position: absolute;
+    margin-left: 55px;
+    font-weight: 620;
+    font-style: normal;
+    font-size: 70px;
+    color: aliceblue;
+    
+}
+
+h1 {
+    font-family: "Skranji", system-ui;
+    position: absolute;
+    margin-top: 85px;
+    margin-left: 320px;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 18px;
+    color: rgb(249, 255, 140);
+    filter: drop-shadow(0px 0px 1px #fffb00);
+}
+p {
+    font-family: "Fredoka", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 91.2;
+    font-size: 20px;
+    line-height: normal;
+    flex-shrink: 0;
+    text-align: center;
+    color: aliceblue; 
+    top: 492px;
+    right: 152px;
+    border-radius: 65px;
+    z-index: 9;
+    
+}
+
+.p1 {
+    margin-left: 45px;
+    text-align: left;
+}
+.p2 {
+    text-align: right;
+}
+

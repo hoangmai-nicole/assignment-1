@@ -1,0 +1,51 @@
+
+#building1 {
+    background-color: #000000;
+    position: absolute;
+    margin-bottom: 0 ;
+    z-index: 4;
+}
+.house1 {
+    bottom: 0;
+    left: 0px;
+    width: 450px;
+    height: 450px;
+    align-items: center;
+}
+.house1-5 {
+    bottom: 0;
+    left: 450px;
+    width: 900px;
+    height: 220px;
+    z-index: 3;
+}
+.house2 {
+    bottom: 0;
+    right: 962px;
+    width: 300px;
+    height: 264px;
+}
+.house3 {
+    bottom: 0;
+    right: 630px;
+    width: 332px;
+    height: 450px;
+}
+.house4 {
+    bottom: 0;
+    right: 454px;
+    width: 176px;
+    height: 375px;
+}
+.house5 {
+    bottom: 0;
+    right: 109px;
+    width: 345px;
+    height: 574px;
+}
+.house6 {
+    bottom: 0;
+    right: 0px;
+    width: 109px;
+    height: 297px;
+}

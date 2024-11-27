@@ -1,0 +1,57 @@
+.line {
+    background-color: #FFF600;
+    height: 1.05px;
+    position: absolute;
+    animation-name: line;
+    animation-iteration-count: infinite;
+    animation-duration: 7s;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes line {
+    0% {
+        opacity: 100%;
+    }
+    50% {
+        opacity: 20%;
+    }
+    100% {
+        opacity: 100%;
+    }
+}
+#line1 {
+    width: 124.888px;
+    top: 240px;
+    right: 820px;
+    rotate: -25deg;
+}
+#line2 {
+    width: 74.726px;
+    top: 210px;
+    right: 690px;
+    rotate: 17deg;
+}
+#line3 {
+    width: 95.352px;
+    top: 240px;
+    right: 545px;
+    rotate: 10deg;
+}
+#line4 {
+    width: 79.48px;
+    top: 310px;
+    right: 445px;
+    rotate: 60deg;
+}
+#line5 {
+    width: 177.792px;
+    top: 340px;
+    right: 260px;
+    rotate: -12deg;
+}
+#line6 {
+    width: 99.045px;
+    top: 245px;
+    right: 190px;
+    rotate: 91deg;
+}

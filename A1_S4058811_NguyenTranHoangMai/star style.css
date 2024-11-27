@@ -1,0 +1,242 @@
+.asteroids {
+    margin: 0 auto;
+}
+
+.star1 {
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    clip-path: polygon(
+        50% 0%, 61% 35%, 98% 35%, 
+        68% 57%, 79% 91%, 
+        50% 70%, 21% 91%, 
+        32% 57%, 2% 35%, 
+        39% 35%
+    );
+    z-index: 3;
+    filter: drop-shadow(0px 0px 10px #fffc58);
+    background: radial-gradient(circle, #f9f900, #f0ff50);
+    animation-name: starbg;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    z-index: 0;
+}
+
+@keyframes starbg {
+    0% {
+        transform: scale(1.5);
+        rotate: 0deg;
+            
+    }
+    50% {
+        transform: scale(1.6);
+        rotate: 360deg;    
+    }
+    100% {
+        transform: scale(1.5);
+        rotate: 0deg;    
+    }
+}
+    
+
+#star1 {
+    top: 163px;
+    right: 233px;
+}
+#star2 {
+    top: 312px;
+    right: 233px;
+}
+
+#star3 {
+    top: 355px;
+    right: 448px;
+}
+
+#star4 {
+    top: 246px;
+    right: 508px;
+}
+
+#star5 {
+    top: 221px;
+    right: 654px;
+}
+
+#star6 {
+    top: 191px;
+    right: 778px;
+}
+
+#star7 {
+    top: 269px;
+    right: 960px;
+}
+
+.randomstar {
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    clip-path: polygon(
+        50% 0%, 61% 35%, 98% 35%, 
+        68% 57%, 79% 91%, 
+        50% 70%, 21% 91%, 
+        32% 57%, 2% 35%, 
+        39% 35%
+    );
+    z-index: 0;
+    filter: drop-shadow(0px 0px 10px #fffc58);
+    background: radial-gradient(circle, #f9f900, #f0ff50);
+    animation-name: randomstar;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+}
+ @keyframes randomstar {
+    0% {
+        rotate: -10deg;
+    }
+    100% {
+        rotate: 10deg;
+    }
+ }
+
+#random1 {
+    top: 303px;
+    right: 1337px;
+}
+
+#random2 {
+    top: 513px;
+    right: 1171px;
+}
+
+#random3 {
+    top: 450px;
+    right: 766px;
+}
+
+#random4 {
+    top: 555px;
+    right: 522px;
+}
+
+#random5 {
+    top: 543px;
+    right: 24px;
+}
+
+#random6 {
+    top: 56px;
+    right: 314px;
+}
+
+#random7 {
+    top: 500px;
+    right: 1384px;
+}
+
+#random8 {
+    top: 26px;
+    right: 1258px;
+}
+
+#random9 {
+    top: 56px;
+    right: 947px;
+}
+
+#random10 {
+    top: 900px;
+    left: 900px;
+}
+
+#random11 {
+    top: 700px;
+    left: 200px;
+}
+
+#random12 {
+    top: 300px;
+    left: 720px;
+}
+
+#random13 {
+    top: 200px;
+    left: 100px;
+}
+
+.bouncestar {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    clip-path: polygon(
+        50% 0%, 61% 35%, 98% 35%, 
+        68% 57%, 79% 91%, 
+        50% 70%, 21% 91%, 
+        32% 57%, 2% 35%, 
+        39% 35%
+    );
+    z-index: 6;
+    background-color: #fffc58;
+    animation-name: bouncestar;
+    animation-duration: 14s;
+    animation-delay: 1.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    z-index: 1;
+}
+.bouncestar:hover {
+    animation-play-state: paused;
+}
+@keyframes bouncestar {
+    0% {
+        top: 120px;
+        right: 0px;
+        rotate: 0deg;
+    }
+    
+    100% {
+        top: 1000px;
+        right: 4000px;
+        rotate: 360deg;
+    }
+}
+
+.bouncestar2 {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    clip-path: polygon(
+        50% 0%, 61% 35%, 98% 35%, 
+        68% 57%, 79% 91%, 
+        50% 70%, 21% 91%, 
+        32% 57%, 2% 35%, 
+        39% 35%
+    );
+    z-index: 6;
+    background-color: #fffc58;
+    animation-name: bouncestar2;
+    animation-duration: 11s;
+    animation-delay: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    z-index: 1;
+}
+.bouncestar2:hover {
+    animation-play-state: paused;
+}
+@keyframes bouncestar2 {
+    0% {
+        top: 40px;
+        right: 0px;
+        rotate: 0deg;
+    }
+    
+    100% {
+        top: 1200px;
+        right: 2000px;
+        rotate: 360deg;
+    }
+}
